@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d98d098-9cc3-4ba8-97f5-49322b342f04" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0d98d098-9cc3-4ba8-97f5-49322b342f04" name="Default" comment="" />
     <ignored path="Deeph87.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -166,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485444141374</updated>
-      <workItem from="1485444143338" duration="314000" />
+      <workItem from="1485444143338" duration="375000" />
     </task>
     <task id="LOCAL-00001" summary="Test php&#10;">
       <created>1485444233109</created>
@@ -182,11 +179,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485444307900</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change to html&#10;">
+      <created>1485444471942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485444471942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314000" />
+    <option name="totallyTimeSpent" value="375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -225,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test php&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test php&#10;" />
+    <MESSAGE value="Change to html&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to html&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
