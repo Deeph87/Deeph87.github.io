@@ -1,0 +1,217 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@font-face {
+  font-family: "NunitoSans-Black";
+  src: url("../fonts/NunitoSans-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-BlackItalic";
+  src: url("../fonts/NunitoSans-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-ExtraBold";
+  src: url("../fonts/NunitoSans-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-ExtraBoldItalic";
+  src: url("../fonts/NunitoSans-ExtraBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url("../fonts/NunitoSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-BoldItalic";
+  src: url("../fonts/NunitoSans-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-SemiBold";
+  src: url("../fonts/NunitoSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-SemiBoldItalic";
+  src: url("../fonts/NunitoSans-SemiBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-Regular";
+  src: url("../fonts/NunitoSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-Italic";
+  src: url("../fonts/NunitoSans-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-Light";
+  src: url("../fonts/NunitoSans-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-LightItalic";
+  src: url("../fonts/NunitoSans-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-ExtraLight";
+  src: url("../fonts/NunitoSans-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans-ExtraLightItalic";
+  src: url("../fonts/NunitoSans-ExtraLightItalic.ttf") format("truetype");
+}
+/* line 11, ../sass/screen.scss */
+* {
+  margin: 0;
+}
+
+/* line 16, ../sass/screen.scss */
+body section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(210deg, #33428f 20%, #6f3747, #ab2d00);
+}
+/* line 27, ../sass/screen.scss */
+body section .logo-container {
+  margin-top: 50px;
+  text-align: center;
+}
+/* line 34, ../sass/screen.scss */
+body section .form-container {
+  margin-top: 50px;
+  text-align: center;
+}
+/* line 38, ../sass/screen.scss */
+body section .form-container form .input-text {
+  width: 460px;
+  height: 30px;
+  padding: 0 0 0 10px;
+  margin: 0 0 30px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-style: none none solid none;
+  border-bottom: 1px solid #9bffea;
+  color: #9bffea;
+  font-family: "NunitoSans-Regular";
+  font-size: 15px;
+}
+/* line 42, ../sass/screen.scss */
+body section .form-container form .input-text:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 9, ../sass/_mixins.scss */
+body section .form-container form .input-text:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* line 12, ../sass/_mixins.scss */
+body section .form-container form .input-text:focus {
+  outline: none;
+}
+/* line 63, ../sass/_mixins.scss */
+body section .form-container form .input-text::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 68, ../sass/_mixins.scss */
+body section .form-container form .input-text::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 73, ../sass/_mixins.scss */
+body section .form-container form .input-text:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 78, ../sass/_mixins.scss */
+body section .form-container form .input-text:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 48, ../sass/screen.scss */
+body section .form-container form .input-textarea {
+  width: 458px;
+  margin: 0 0 30px 0;
+  padding: 10px 0 0 10px;
+  height: 150px;
+  margin: 0 0 30px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-style: none none solid none;
+  border-bottom: 1px solid #9bffea;
+  color: #9bffea;
+  font-family: "NunitoSans-Regular";
+  font-size: 15px;
+}
+/* line 53, ../sass/screen.scss */
+body section .form-container form .input-textarea:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 9, ../sass/_mixins.scss */
+body section .form-container form .input-textarea:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* line 12, ../sass/_mixins.scss */
+body section .form-container form .input-textarea:focus {
+  outline: none;
+}
+/* line 63, ../sass/_mixins.scss */
+body section .form-container form .input-textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 68, ../sass/_mixins.scss */
+body section .form-container form .input-textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 73, ../sass/_mixins.scss */
+body section .form-container form .input-textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 78, ../sass/_mixins.scss */
+body section .form-container form .input-textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(155, 255, 234, 0.75);
+  font-family: "NunitoSans-Regular";
+  font-size: 12px;
+}
+/* line 59, ../sass/screen.scss */
+body section .form-container form .input-submit {
+  width: 460px;
+  height: 30px;
+  margin: 0 0 30px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-style: none none solid none;
+  border-bottom: 1px solid #9bffea;
+  color: #9bffea;
+  font-family: "NunitoSans-Regular";
+  font-size: 15px;
+}
+/* line 9, ../sass/_mixins.scss */
+body section .form-container form .input-submit:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* line 12, ../sass/_mixins.scss */
+body section .form-container form .input-submit:focus {
+  outline: none;
+}
+/* line 63, ../sass/screen.scss */
+body section .form-container form .input-submit:hover {
+  cursor: pointer;
+}
+/* line 66, ../sass/screen.scss */
+body section .form-container form .input-submit:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}

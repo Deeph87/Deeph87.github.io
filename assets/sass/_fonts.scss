@@ -1,0 +1,18 @@
+@import "mixins";
+
+// Font-face of NunitoSans
+
+@include font-face(NunitoSans-Black, fonts/NunitoSans-Black, null, null, ttf);
+@include font-face(NunitoSans-BlackItalic, fonts/NunitoSans-BlackItalic, null, null, ttf);
+@include font-face(NunitoSans-ExtraBold, fonts/NunitoSans-ExtraBold, null, null, ttf);
+@include font-face(NunitoSans-ExtraBoldItalic, fonts/NunitoSans-ExtraBoldItalic, null, null, ttf);
+@include font-face(NunitoSans-Bold, fonts/NunitoSans-Bold, null, null, ttf);
+@include font-face(NunitoSans-BoldItalic, fonts/NunitoSans-BoldItalic, null, null, ttf);
+@include font-face(NunitoSans-SemiBold, fonts/NunitoSans-SemiBold, null, null, ttf);
+@include font-face(NunitoSans-SemiBoldItalic, fonts/NunitoSans-SemiBoldItalic, null, null, ttf);
+@include font-face(NunitoSans-Regular, fonts/NunitoSans-Regular, null, null, ttf);
+@include font-face(NunitoSans-Italic, fonts/NunitoSans-Italic, null, null, ttf);
+@include font-face(NunitoSans-Light, fonts/NunitoSans-Light, null, null, ttf);
+@include font-face(NunitoSans-LightItalic, fonts/NunitoSans-LightItalic, null, null, ttf);
+@include font-face(NunitoSans-ExtraLight, fonts/NunitoSans-ExtraLight, null, null, ttf);
+@include font-face(NunitoSans-ExtraLightItalic, fonts/NunitoSans-ExtraLightItalic, null, null, ttf);
